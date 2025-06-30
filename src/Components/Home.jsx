@@ -61,7 +61,7 @@ const Home = () => {
             onClick={() => setActiveTab("oneway")}
             className={`flex-1 py-2 rounded-t-md text-center font-bold text-sm md:text-lg transition-all ${
               activeTab === "oneway"
-                ? "bg-red-600 text-white"
+                ? "bg-red-900 text-white"
                 : "bg-gray-200 text-gray-700"
             }`}
           >
@@ -71,7 +71,7 @@ const Home = () => {
             onClick={() => setActiveTab("outstation")}
             className={`flex-1 py-2 rounded-t-md text-center font-bold text-sm md:text-lg transition-all ${
               activeTab === "outstation"
-                ? "bg-red-600 text-white"
+                ? "bg-red-900 text-white"
                 : "bg-gray-200 text-gray-700"
             }`}
           >
@@ -81,7 +81,7 @@ const Home = () => {
             onClick={() => setActiveTab("rental")}
             className={`flex-1 py-2 rounded-t-md text-center font-bold text-sm md:text-lg transition-all ${
               activeTab === "rental"
-                ? "bg-red-600 text-white"
+                ? "bg-red-900 text-white"
                 : "bg-gray-200 text-gray-700"
             }`}
           >
@@ -207,7 +207,7 @@ const Home = () => {
           />
         </div>
       </section>
-      <footer className="footer py-6 bg-red-600 text-white text-center text-sm">
+      <footer className="footer py-6 bg-red-900 text-white text-center text-sm">
         <p>&copy; 2025 RedTaxi. All rights reserved.</p>
       </footer>
     </div>

@@ -6,11 +6,13 @@ import About from './Components/About';
 import Cities from './Components/Cities';
 import Trip from './Components/Trip';
 import Login from './Components/Login';
-
+import Explore from './Components/Explore';
+import FloatingButtons from './FloatingButton';
 const App = () => {
   return (
     <Router>
       <Navbar />
+        <FloatingButtons />
       <Routes>
     
         <Route path="/" element={<Home />} />
@@ -19,7 +21,9 @@ const App = () => {
         <Route path="/cities" element={<Cities />} />
         <Route path="/trip" element={<Trip />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/explore/:cityName" element={<Explore />} />
       </Routes>
+
     </Router>
   );
 };
