@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 500px; /* Optional */
+}
+
+.item {
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+
+.title {
+  color: white;
+  height: 50px;
+  cursor: pointer;
+}
+
+.content {
+  color: grey;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.content.show {
+  max-height: 500px;
+}
