@@ -123,7 +123,7 @@ function About() {
         
         <div className="relative w-full sm:h-[350px] md:h-[400px] overflow-hidden rounded-xl shadow-lg">
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover "
             src="https://t4.ftcdn.net/jpg/06/37/71/29/360_F_637712935_DqKmkACFBSawe5MGY633UXeavV9XFgnt.jpg"
             alt="taxiimg"
           />
